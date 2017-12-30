@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UDLServices.Views;
 
 using Xamarin.Forms;
 
@@ -13,7 +14,7 @@ namespace UDLServices
         {
             InitializeComponent();
 
-            MainPage = new UDLServices.MainPage();
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

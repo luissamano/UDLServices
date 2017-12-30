@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UDLServices.Views.LoginPage">
+    <ContentPage.Content>
+
+        <StackLayout Margin="50,100,50,100">
+
+            <StackLayout Spacing="0">
+                <Entry Placeholder="Username"></Entry>
+                <Entry Placeholder="Password"></Entry>
+                <Button Text="Iniciar secion"/>
+            </StackLayout>
+
+            <Label Text="Olvide mi contraseña! :v" HorizontalOptions="End"/>
+
+            <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                <Label Text="Iniciar con:" VerticalOptions="End" VerticalTextAlignment="Center" />
+                <Button />
+                <Button />
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
